@@ -11,7 +11,7 @@ body{
 h1{
     font-size: 3rem;
     margin: 3rem;
-    color:deeppink;
+    color:#e53170;
     text-align: center;
 }
 
@@ -54,11 +54,15 @@ img{
 span{
     vertical-align:top;
     color: white;
-    display: inline-block;
+    display: inline-flex;
 }
 
 .utility{
-    padding-left: 1rem;
-    padding-bottom: 3rem;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
+
+}
+
+.description{
+    padding-left: 10px; 
+    padding-top: 10px;
 }
