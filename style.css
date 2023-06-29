@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+    margin: 3rem;
+    color:deeppink;
+    text-align: center;
+}
+
+.container{
+    max-width: 1170px;
+    width: 80%;
+    margin: auto;
+}
+
+
+   
+
+.text_align{
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.row{
+    padding-top: 3rem;
+}
+
+.col{
+    float: left;
+    width: calc(88% / 3);
+    padding: 0;
+    background-color: black;
+    margin:2%;
+}
+
+img{
+    width: 100px;
+}
+
+span{
+    vertical-align:top;
+    color: white;
+    display: inline-block;
+}
+
+.utility{
+    padding-left: 1rem;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+}
